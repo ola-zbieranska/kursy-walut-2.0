@@ -6,3 +6,4 @@ PyYAML
 SQLAlchemy
 openpyxl
 flask-login
+gunicorn
