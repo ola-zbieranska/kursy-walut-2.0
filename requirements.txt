@@ -1,0 +1,8 @@
+# biblioteki
+
+flask
+requests
+PyYAML
+SQLAlchemy
+openpyxl
+flask-login

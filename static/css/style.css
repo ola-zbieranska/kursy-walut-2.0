@@ -1,0 +1,26 @@
+/* Stylizacja klikanych gwiazdek */
+.star {
+    color: gold;
+    font-size: 1.2em;
+    margin-left: 4px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.star.inactive {
+    color: lightgray;
+}
+
+/* Przyciski przełączania motywu */
+#toggle-theme {
+    border: none;
+    background: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+#toggle-theme:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}

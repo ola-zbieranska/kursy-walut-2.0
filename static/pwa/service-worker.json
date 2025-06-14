@@ -1,0 +1,8 @@
+// Service Worker — PWA loader
+self.addEventListener('install', (event) => {
+  console.log('✅ Service Worker zainstalowany');
+});
+
+self.addEventListener('activate', (event) => {
+  console.log('🔁 Service Worker aktywowany');
+});

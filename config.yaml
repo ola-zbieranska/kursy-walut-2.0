@@ -1,0 +1,5 @@
+# konfiguracja (np. data, waluty)
+
+start_date: 2023-01-01
+end_date: 2025-06-14
+table: A

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Ulubione waluty</title>
+</head>
+<body>
+    <h1>Ulubione waluty</h1>
+
+    <form method="POST" action="/favorites">
+        <p>Wybierz waluty, które chcesz oznaczyć jako ulubione:</p>
+
+        {% for code in currencies %}
+            <label>
+                <input type="checkbox" name="favorites" value="{{ code }}"
+                    {% if code in current_favorites %}checked{% endif %}>
+                {{ code }}
+            </label><br>
+        {% endfor %}
+
+        <br>
+        <button type="submit">Zapisz ulubione</button>
+    </form>
+
+    <p><a href="/">⬅ Wróć do kursów walut</a></p>
+</body>
+</html>

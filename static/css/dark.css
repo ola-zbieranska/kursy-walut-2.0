@@ -1,0 +1,47 @@
+/* Ciemny motyw aktywowany klasą `body.dark` */
+body.dark {
+    background-color: #121212;
+    color: #eeeeee;
+}
+
+/* Styl dla formularzy */
+body.dark .form-control,
+body.dark .form-select {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-color: #444;
+}
+
+/* Styl dla tabeli */
+body.dark .table {
+    color: #ffffff;
+}
+
+body.dark .table-light {
+    background-color: #333333 !important;
+    color: #ffffff;
+}
+
+body.dark .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #1f1f1f;
+}
+
+body.dark .table-striped tbody tr:nth-of-type(even) {
+    background-color: #2b2b2b;
+}
+
+/* Styl dla przycisków */
+body.dark .btn-outline-primary {
+    color: #cce5ff;
+    border-color: #88c3ff;
+}
+
+body.dark .btn-outline-success {
+    color: #c3fccc;
+    border-color: #6bcf6b;
+}
+
+body.dark .btn-outline-danger {
+    color: #fbb;
+    border-color: #f44;
+}
